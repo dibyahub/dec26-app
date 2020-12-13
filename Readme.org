@@ -1,0 +1,10 @@
+#+TITLE: README (UPDATE ME)
+#+DATE: Sunday, Dec 13 2020
+
+** Development
+  
+   Start services with docker-compose
+   #+begin_src bash
+   cp .env.sample .env
+   docker-compose up -f docker-compose-service.yml
+   #+end_src
